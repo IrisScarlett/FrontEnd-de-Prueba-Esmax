@@ -1,0 +1,250 @@
+@media print {
+    /* @page {
+        size: A4;
+      } */
+
+      .contHeaderBit .inputsFila1{
+          height: 20px;
+          margin: 0;
+      }
+      .contHeaderBit .inputsFila2{
+          position: relative;
+        height: 60px;
+        margin-top: 15px;
+        z-index: 3;
+        margin-bottom: 0 !important;
+      }
+      .contHeaderBit .inputsFila3{
+          position: relative;
+          bottom:25px;
+          margin-top: 0px;
+      }
+      .obsBitacora{
+          position: relative;
+          bottom: 30px;
+          font-size: .8rem;
+          z-index: -1;
+      }
+      .obsBitacora .spanLabelColObs{
+        font-size: 1rem;
+        color: black;
+        border: none;
+        font-weight: 700;
+
+      }
+       .spanLabelColOp{
+        font-size: 1rem;
+        color: black;
+        font-weight: 700;
+        border: none;
+        z-index: 1000;
+
+
+      }
+      .spanLabelCol1,.spanLabelCol2,.inputsFila2 input{
+          height: 40px;
+          border: none;
+
+      }
+    
+      .contHeaderBit{
+          width: 98%;
+          height: 180px;
+          border: 10px double black;
+          margin-bottom: 70px;
+          margin-top: 10px !important;
+          
+      }
+      .contHeaderBit .form-control{
+          z-index: 50;
+      }
+      .spanLabelCol1{
+          border: none;
+        width: 600px!important;
+        color: black;
+        font-size: 1rem;
+        font-weight: 700;
+
+    }
+    .spanLabelCol2{
+        width: 1500px!important;
+        color: black;
+        font-size: 1rem;
+        font-weight: 700;
+        border: none;
+
+    }
+
+    .inputCol2,.inputcol2{
+        font-size: .8rem;
+        padding-left: 0;
+        border: none;
+    }
+    .inputfechareg{
+        position: absolute;
+        display: flex;
+        width: 50%;
+        left: 14%;
+        top: 20%;
+        font-size: .8rem;
+        z-index: -1;
+        color: black;
+    }
+    .contHeaderBit .inputObs{
+        position: relative;
+        top: 20%;
+        /* padding-top: 10px; */
+    }
+    .contHeaderBit .inputOperador{
+        position: relative;
+
+        font-size: .8rem;
+        border: none;
+     
+    }
+
+    .spanLabel8{
+        height: 40px;
+    }
+    .contHeaderBit .spanLabelCol2, .contHeaderBit .spanLabelColOp{
+        width: 85px !important;
+    }
+    .contHeaderBit .inputCol4{
+        font-size: .8rem;
+        border: none;
+    }
+    .metroscub1{
+        position: absolute;
+        left:44%;
+        top: 27%;
+        font-size: .8rem;
+
+        z-index:100
+    }
+    .metroscub2{
+        position: absolute;
+        left:71%;
+        top: 27%;
+        font-size: .8rem;
+
+        z-index:100
+    }
+        
+    .spanLabelCap{
+        color: black;
+        font-weight: 700;
+        width: 80%;
+        border: none;
+    }
+    .contHeaderBit .spanEnLinea{
+        color: black;
+        font-weight: 700;
+        width: 80%;
+        border: none;
+    }
+    .contHeaderBit .labelPruebasNivel{
+        color: black;
+        font-weight: 700;
+        width: 80%;
+        border: none;
+    }
+   .contAlarmasNivel div{
+        position: absolute !important;
+        top: -40px;
+        right: 500px;
+    }
+    .contAlarmasNivel .contCheckAlarma{
+        left: -20px;
+        height: 10px !important;
+        z-index: 20000;
+        font-size: .6rem;
+        margin: 0 !important;
+        color: black !important;
+        font-weight: 900;
+        /* padding: 0; */
+        /* display: flex; */
+    }
+    .contAlarmasNivel .contCheckAlarma2{
+        left: -70px;
+        font-size: .6rem;
+        color: black !important;
+        font-weight: 900;
+        height: 10px !important;
+        z-index: 20000;
+        /* display: flex; */
+    }
+    .contAlarmasNivel .contCheckAlarma3{
+        left: -140px;
+        font-size: .6rem;
+        color: black !important;
+        font-weight: 900;
+        height: 10px !important;
+        z-index: 20000;
+        /* display: flex; */
+    }
+    .contAlarmasNivel .contCheckAlarma input,
+    .contAlarmasNivel .contCheckAlarma2 input,
+    .contAlarmasNivel .contCheckAlarma3 input{
+        position: relative;
+        left: 20px;
+        top: 35px;
+        height: 20px;
+        border: 2px solid;
+        z-index: 20000;
+        font-size: 1rem;
+
+    }
+    .contAlarmasNivel .contCheckAlarma2 input{
+        left: 15px;
+
+    }
+    .contAlarmasNivel .contCheckAlarma3 input{
+        left: 20px;
+    }
+
+
+    /* REGISTROS */
+
+    .conRegistroBit{
+        width: 98% !important;
+        border: 5px double black;
+        margin-bottom: 14px!important;
+    }
+    .spanDoubleHeigth{
+        height: 42px;
+    }
+
+    .spanLabelRegBit{
+        color: black !important;
+        font-size: .8rem;
+        /* width: 80%; */
+        font-weight: 600;
+        border-bottom:2px solid black ;
+        border-top:2px solid black ;
+    }
+    .colregibit{
+        width: 13.8%;
+
+    }
+    .colregibitObsFinish{
+        width: 27.6%
+    }
+    .identPausa{
+        position: absolute;
+        top:80%;
+        left: 10%;
+        font-size: 10px;
+        letter-spacing: 3mm;
+    }
+    .colregibitObsFinish .inputObs{
+        font-size: .6rem;
+        height: 40px;
+    }
+    .pfolioBitacora{
+        z-index: 1000;
+        top: 1%;
+        left: 85%;
+    }
+  
+
+    }

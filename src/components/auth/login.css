@@ -1,0 +1,47 @@
+
+.contenedorLogin{
+    background-image: url('https://www.esmax.cl/wp-content/uploads/esmax-petrobras-chile.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: 'Numans', sans-serif;
+    }
+    
+    .contLogin{
+    height: 100%;
+    align-content: center;
+    }
+     
+    .cardLogin{
+        margin: 2rem;
+        color: white;
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
+    } 
+    .card-header h3{
+        margin-top: 1rem;
+    color: white;
+    } 
+    .input-group-prepend span{
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border:0 !important;
+    }
+
+    input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;  
+    }
+    
+  .contBtnLogin{
+      display: flex;
+      justify-content: end;
+  }
+  .btnLogin{
+      width: 200px;
+  }
+

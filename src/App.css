@@ -1,0 +1,740 @@
+.offcanvas-body{
+    font-weight: 700;
+    transition: all;
+}
+
+.offcanvas-title{
+    width: 80%;
+}
+
+.logoNav{
+    height: 40px;
+}
+
+
+.spinner-border{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+margin-top: 9.3rem;
+z-index: 100;
+position: absolute;
+top: -150px;
+right: 50%; 
+height: 30px;
+width: 30px;}
+
+.contBotonLineas {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    margin-top: 3.8em;
+ }
+
+.botonLineas{
+    height: 50px;
+    width: 100%;
+
+}
+
+.infoLineas{
+box-shadow: 5px 5px 15px -5px #000000;
+}
+
+
+.botonTabla5b{
+    justify-content: end;
+    
+}
+
+.btnTabla5b{
+    width: 100%;
+    /* margin-right: 1em; */
+}
+
+.input5B{
+    width: 100%;
+}
+
+.vr{
+    /* height: 100%; */
+    border-left: 0.1px solid rgb(199, 199, 199);
+    height: 100%;
+    /* transform: rotate(90deg); */
+}
+
+.nav-link{
+    font-size: 1.3rem;
+    padding: 0.4rem;
+}
+
+.tituloAcordion{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: BLACK;
+}
+
+.tituloAcordionDesplegable{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: black;
+}
+
+.accordion{
+    background: rgba(155, 50, 50, 0) !important;
+}
+
+.accordion-item,.accordion-button{
+    background-color: transparent!important;
+
+}
+
+.offcanvas{
+    width: 350px;
+    background: linear-gradient(302deg, rgba(0,7,185,0.9051995798319328) 0%, rgba(69,201,133,0.6446953781512605) 34%, rgba(255,255,255,1) 67%);}
+
+
+.error{
+    color: red;
+    font-style: italic;
+}
+
+.contLogout{
+
+    height: 100%;
+}
+.btnLogout{
+    cursor: pointer;
+    position: absolute;
+    color: grey;
+    bottom: 1%;
+    right: 4%;
+    display: flex;
+    justify-content: end;
+    /* color: white; */
+    font-size: 50px;
+    transition: all ease .5s;
+
+}
+.btnLogout:hover{
+    color: rgb(209, 209, 209);
+    font-size: 70px;
+    transition: all ease .5s;
+}
+.spanLabel {
+     width: 220px;
+     background-color: rgb(97, 97, 129);
+     color: white;
+     cursor: pointer;
+}
+
+.spanLabelRF{
+    /* width: 220px; */
+    background-color: rgb(97, 97, 129);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+
+}
+.spanLabelRF1{
+    width: 140px;
+    background-color: rgb(97, 97, 129);
+    color: white;
+    cursor: pointer;
+}
+.spanLabelRF2{
+    width: 170px;
+    background-color: rgb(97, 97, 129);
+    color: white;
+    cursor: pointer;
+}
+.spanLabelRF3{
+    justify-content: center;
+    background-color: rgb(97, 97, 129);
+    color: white;
+    cursor: pointer;
+}
+.spanLabelRF4{
+    width: 100%;
+    background-color: rgb(97, 97, 129);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+.spanLabelSL{
+    width: 50%;
+    background-color: rgb(97, 97, 129);
+    color: white;
+    cursor: pointer;
+}
+.contbtnLibreta{
+    position: relative
+}
+.btnAddLibreta{
+    position: absolute;
+    bottom: 20px;
+    height: 50px;
+    width: 100%;
+}
+ 
+ .fa-plus-circle{
+     padding-top: 2px;
+     padding-bottom: 2px;
+ }
+
+.contBtnUpdate{
+    justify-content: center;
+
+}
+
+.btnUpdate{
+    justify-content: center;
+    margin-left: 50%;
+}
+
+.contLibreta{
+position: relative
+}
+
+.contNFolio{
+position: absolute;
+}
+
+.spanLabel2 {
+    width: 120px;
+    background-color: rgb(151, 151, 179);
+    color: white;
+    cursor: pointer;
+}
+
+.spanLabel3 {
+    width: 70px;
+    background-color: rgb(97, 97, 129);
+    color: white;
+    cursor: pointer;
+}
+
+.spanLabel4 {
+    width: 90px;
+    background-color: rgb(97, 97, 129);
+    color: white;
+    cursor: pointer;
+}
+
+.spanLabel5 {
+    width: 220px;
+    background-color: rgb(151, 151, 179);
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.nombreCreador{
+    font-style: italic;
+    position: absolute;
+    left: 0;
+}
+
+.nombreEditor{
+    font-style: italic;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+
+.contenedorAbsoluteNombres{
+position: absolute; 
+right: 0;   
+width: 35%;
+}
+
+.contCargando{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.363);
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+}
+
+.contInputCSV{
+    padding: 100px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #0000005b;
+    backdrop-filter: blur(10px) saturate(150%) brightness(60%);    /* background-color: #00000079; */
+    z-index: 200;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ejemploCalibracion{
+    margin: 2rem;
+    width: 40%;
+    background-color: transparent !important;
+    box-shadow: 5px 5px 15px 5px #00000060 !important;
+
+}
+.inputCSV{
+    width: 60%;
+    margin-top: 2rem;
+    background-color: transparent !important;
+
+}
+
+.tituloCalibracion{
+    font-size: 200%;
+ color: rgb(255, 255, 255);
+ background-color: transparent !important;
+}
+.botonCerrarExcel{
+    width: 35%; 
+    margin-top: 2rem;
+    justify-content: space-evenly;
+}
+
+.labelcsv{
+    color: rgb(255, 148, 148);
+    font-size: 1.3rem;
+
+}
+
+.pantallaCargaLinea{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #00000054;
+    z-index: 500;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.botonDescargar{
+    background-color: rgb(2, 151, 27);
+    color: white;
+    padding: .4rem .65rem;
+    border-radius: 10%;
+}
+.contInfoLibreta{
+    /* display: flex; */
+    justify-content:space-between
+}
+
+.btnDownloadCSV{
+    background-color: #147a00 !important;
+    padding: 8px;
+    border-radius: 10%;
+    color: white;
+    text-decoration: none;
+}
+.btnDownloadCSV:hover{
+    text-decoration: none;
+    color: white;
+}
+
+
+.inputObsRF {
+    height: 70px;
+    word-wrap: break-word;
+    /* display: inline-block; */
+}
+
+.btnHojaResumen {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(67, 67, 131)
+  }
+  .btnHojaResumen:hover {
+    border-radius: 5px;
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  .btnHojaResumen:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+  .btnHojaResumen:after {
+    content: "\00BB";
+    position: absolute;
+    opacity: 0;
+    font-size: 20px;
+    line-height: 40px;
+    top: 0;
+    right: -20px;
+    transition: 0.4s;
+  }
+
+  /* .btns{
+    color: #fff;
+    background-color: rgb(67, 67, 131);
+  } */
+
+  
+.btns {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(67, 67, 131)
+  }
+  .btns:hover {
+    border-radius: 5px;
+    padding-right: 24px;
+    padding-left:8px;
+    color: white;
+  }
+  .btns:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+  .btns:after {
+    content: "\00BB";
+    position: absolute;
+    opacity: 0;
+    font-size: 20px;
+    line-height: 40px;
+    bottom: 1%;    
+    right: -20px;
+    transition: 0.4s;
+  }
+
+.countCheckBoxs {
+    display: flex;
+    justify-content: space-between;
+}
+.MuiFormControl-root{
+    width: 100%;
+    /* background-color: red; */
+}
+.checkBoxsDatos{
+    position: absolute;
+}
+
+.MuiFormLabel-root {
+    color: black !important;
+}
+
+.checkEspecial {
+    position: absolute;
+}
+
+.checkEspecial{
+    color: white !important;
+}
+
+.titulos{
+    color: rgb(67, 67, 131);
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 40px;
+    letter-spacing: 6px;
+    word-spacing: 5.4px;
+    /* color: #000000; */
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+.subTitulos{
+    color: rgb(67, 67, 131);
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 5.4px;
+    /* color: #000000; */
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+.subTitulosObservaciones{
+    color: rgb(67, 67, 131);
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    word-spacing: 5.4px;
+    /* color: #000000; */
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: center;
+    /* margin-right: 1px; */
+}
+
+.constSelect{
+    position: relative;
+    width: 106% !important;
+    /* background-color: red !important; */
+    /* margin-top: 0% !important;
+    padding: 0%; */
+}
+
+.TituloProductoRF{
+    /* margin-left: %; */
+    margin-left: 2%;
+}
+
+
+.contenedorPDF{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+
+}
+
+.botonCerrarPDF{
+    position: absolute;
+    right: 10%;
+    top: 2%;
+    width: 100px;
+ 
+}
+
+.contHojaMedida .select-tanque {
+    position:relative;
+    width: 22.7%;
+    z-index: 0;
+    margin-left: 10px!important;
+    margin-right: 5px!important;
+
+}
+
+
+.primeraTabla .selectHoja, .tablaDespues .selectHoja{
+    position:relative;
+    width: 94%;
+    z-index: 0;
+    margin-left: 10px!important;
+    margin-right: 5px!important;
+    margin-bottom: 10px;
+}
+.inputEstCapSeguro{
+    width: 110px;
+}
+
+.colorProducto{
+    /* opacity: 80%; */
+    border-radius: 20px;
+    /* border-radius: 10px; */
+    box-shadow: 0 0 10px rgb(34, 7, 7);
+    
+}
+
+
+.modalHojasResumen-header{
+    background-color: rgb(97, 97, 129);
+    /* margin-right: 50%; */
+    /* width: 200%; */
+    color: white;
+
+    
+}
+.modalHojasResumen-body{
+    background-color:rgb(255, 255, 255);
+    
+    
+}
+.modalHojasResumen-footer{
+    background-color: rgb(97, 97, 129);
+    
+}
+
+.inputOtrosRF {
+    text-align: center;
+}
+
+.titulosTablaHRNumeros1{
+    background-color: rgba(36, 36, 116, 0.548) !important;
+    vertical-align: middle;
+    padding: 0px;
+    color: white;
+    
+}
+.titulosTablaHRNumeros2{
+    background-color: rgba(5, 5, 61, 0.548) !important;
+    vertical-align: middle;
+    padding: 0px;
+    color: white;
+    
+}
+
+.espacioTablaHR{
+    height:10px;
+}
+
+a
+table.tableHojaResumen {
+    font-family: "Times New Roman", Times, serif;
+    border: 0px solid #FFFFFF;
+    background-color: #E3E3E3;
+    /* width: 350px;
+    height: 200px; */
+    text-align: left;
+    border-collapse: collapse;
+  }
+  table.tableHojaResumen td, table.paleBlueRows th {
+    border: 1px solid #380652;
+    padding: 3px 2px;
+  }
+  table.tableHojaResumen tbody td {
+    font-size: 18px;
+  }
+  table.tableHojaResumen thead {
+    background: #3F0861;
+    background: -moz-linear-gradient(top, #6f4688 0%, #522070 66%, #3F0861 100%);
+    background: -webkit-linear-gradient(top, #6f4688 0%, #522070 66%, #3F0861 100%);
+    background: linear-gradient(to bottom, #6f4688 0%, #522070 66%, #3F0861 100%);
+    border-bottom: 0px solid #FFFFFF;
+  }
+  table.tableHojaResumen thead th {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    border-left: 0px solid #FFFFFF;
+  }
+  table.tableHojaResumen thead th:first-child {
+    border-left: none;
+  }
+  
+  table.tableHojaResumen tfoot {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+    background: #D0E4F5;
+    border-top: 3px solid #444444;
+  }
+  table.tableHojaResumen tfoot td {
+    font-size: 14px;
+  }
+
+
+.tituloProductoSEC{
+    margin-top: 1.5rem;
+}
+
+.contenedorTablasSEC{
+  width: 250vw;   
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.titulosTSEC{
+    height: 40px;
+    padding-top: 7px;
+    background-color:    #cfe2ff;
+}
+
+.subtitulosTSEC{
+    height: 70px;
+}
+
+.subtituloRFSEC{
+    background-color:  #cfe2ff ;
+}
+
+.tituloTSECComentarios{
+    height: 110px;
+    font-size: 120%;
+}
+
+.productosTablaHSDanload{
+    background: #3F0861;
+    background: -moz-linear-gradient(top, #6f4688 0%, #522070 66%, #3F0861 100%);
+    background: -webkit-linear-gradient(top, #6f4688 0%, #522070 66%, #3F0861 100%);
+    background: linear-gradient(to bottom, #6f4688 0%, #522070 66%, #3F0861 100%);
+    border-bottom: 0px solid #FFFFFF;
+    color: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.btnNumeral{
+    min-width: 50px;
+    height: 30px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(67, 67, 131)
+  }
+  
+.titulosTablaHR{
+    background-color: rgba(6, 6, 63, 0.685) !important;
+    vertical-align: middle;
+    padding: 0px;
+    color: white;
+}
+
+.nombreProducto {
+    color: #FFFFFF;
+/* background: #b8b8b8; */
+text-shadow: #000000 3px 1px 3px;
+}
+.tituloObservaciones{
+    font-size: 70%;
+    width: 2%;
+}
+.longitudCasilla {
+    width: 8%;
+}
+.longitudCasillaProducto{
+width: 10%;
+}
+
+.variacionSEC{
+    height: 50px;
+    padding: 10px;
+    margin-left: 1px;
+    margin-right: 1px;
+    background-color:    #cfe2ff;
+}
+.tamanoModal{
+max-width: 550px;
+}

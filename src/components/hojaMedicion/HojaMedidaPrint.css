@@ -1,0 +1,360 @@
+@media print {
+    @page {
+        @top-center { 
+          content: "Vojtech Ruzicka's Programming Blog"; 
+        }
+        @top-right-corner { 
+          content: 'hola';
+        }
+        @bottom-right { 
+          content: "Page " 
+        }
+      }
+      @page:bottom-right { 
+        content: "Page " 
+      }
+
+     body,.contHojaMedida{
+         margin: 0px !important;
+         padding: 0px !important;
+         position: absolute;
+         width: 100vw;
+         color:black !important;
+         /* bottom: 0; */
+     }
+     *{
+        margin-left: 0px!important;
+        margin-right: 0px !important;
+        width: 100vw;
+    }
+     .tablaDespues,.tablaAntes{
+         font-size: 2px;
+         padding: 0;
+         /* margin: 0; */
+     }
+     .labelHojaCheck{
+         margin-left: 5px !important;
+         width: 120px !important;
+         font-size: 12px
+     }
+     .labelHojaCheck13{
+        margin-left: 5px !important;
+         width: 100px !important;
+         font-size: 12px
+
+     }
+     .medidorn{
+         position: absolute;
+         top: -13px;
+         width: 200px !important;
+         left: 45%;
+     }
+      .medidor60{
+        position: absolute;
+        top: -13px;
+        width: 190px !important;
+        left: 65%;
+    }
+    .medidorf13{
+        position: absolute;
+        top: -13px;
+        width: 15px !important;
+        left: 80%;
+    }
+     .contMedidoresHoja{
+         /* display: flex; */
+         position: absolute;
+         top: 45px;
+         margin: 0 !important;
+     }
+     .headerHoja {
+         border: 4px black double !important;
+         position: relative;
+         bottom: 10px;
+         margin-top: 0px;
+         /* margin-bottom: 10px; */
+         padding-bottom: 5px !important;
+     }
+  
+     .primeraTabla{
+         margin-top: 0 !important;
+         margin-bottom: 0!important;
+         padding-bottom: 0 !important;
+         border: 4px black double !important;
+
+     }
+     .tablaDespues{
+         margin-top: 0px !important;
+         margin-bottom: 0px !important;
+         border: 4px black double !important;
+
+     }
+     .tablasVolumenes .table{
+         font-size: 13px;
+         margin: 0px;
+     }
+     /* todo se cambio aqui se agregoconhoja */
+     .spanLabel2,.spanLabel3,.contHojaMedida .form-control,.spanLabel{
+         font-size: 13px;
+         padding: 0 !important;
+         margin: 0 !important; 
+         border: 0;
+         height: 17px;
+         text-align: end !important;
+         /* margin-right: 20% !important; */
+     }
+     .tablaVolumenes{
+         position:relative;
+         padding-left: 0;
+         width: 49.5%;
+        font-size: 13px !important;
+        border-left: 1px solid rgba(128, 128, 128, 0.322);
+
+     }
+     .headerHoja .form-control{
+         position: relative;
+         right: 50px;
+     }
+     .headerHoja .ciclo{
+        position: relative;
+        right: 97px;
+        z-index: -1;
+    }
+    .headerHoja .emb{
+        position: relative;
+        right: 95px;
+        z-index: -1;
+    }
+     .primeraTabla .textoConMargen,.tablaDespues .textoConMargen{
+         position: relative;
+         right: 0px;
+         text-align: end !important;
+         
+     }
+     .tablaVolumenes .table th,.table td{
+         text-align: center;
+     }
+
+     .tablaAntes span, .tablaDespues span, .headerHoja span{
+         color: black;
+         font-weight: 500;
+     }
+
+     /* .navbar-light{
+        display: none;
+    } */
+     .logoNav{
+         display: block !important;
+         position: absolute;
+         top: -4px;
+         width: 150px;
+         height: 50px;
+     }
+     .tituloHoja{
+         position: absolute;
+         bottom: 102%;
+         color: black;
+         text-align: center;
+         width: 90%;
+         left: 8%;
+     }
+     .selectHoja,.btnPrint,.btnTabla5b,.select-tanque{
+         display: none;
+     }
+     .valorEstanque{
+         display: block !important;
+         width: 147px;
+         font-size: 12px;
+         text-align: center;
+     }
+     .inputCiclo{
+        display: inline;
+         width: 40% !important;
+     }
+     .checkLineas{
+         display: none!important;
+     }
+     .contDistribucionHoja table thead th{
+         padding: 0 !important;
+     }
+     .contDistribucionHoja table tbody td input{
+         width: 70px !important;
+         border: none;
+     }
+     .contDistribucionHoja table tbody td{
+        width: 60px !important;
+        padding-top: 3px !important;
+        border: none;
+    }
+     .navbar-toggler{
+         display: none;
+     }
+     .navbar {
+         /* display: absolute; */
+         background-color: transparent !important;
+     }
+     .contTituloAntes,.contTituloDespues{
+         width: 99.6%;
+         position: relative;
+         right: 10px;
+        border-bottom: 2px solid black;
+
+
+     }
+     .tituloAntes,.tituloDespues{
+         left: 24px;
+         position: relative;
+         display: inline;
+         font-size: 18px;
+         /* vertical-align: middle; */
+         bottom: 4px;
+         margin: 0;
+         text-align: start;
+         /* border-bottom: 2px solid black; */
+         width: 500px;
+
+     }
+     .tablaTotalNeto{
+         border: 4px double black;
+         align-items: start !important;
+     }
+     .tablaTotalNeto .table{
+         position: relative;
+         top: 5px;
+         font-size: 12px !important;
+         width: 50%;
+         margin-left: 15px !important;
+         border-left: none;
+         border-right: 1px solid rgba(128, 128, 128, 0.507);
+
+     }
+
+     .primeraTabla td, .tablaDespues td{
+        padding: 0 !important;
+
+     }
+     .tablaTotalNeto .table tr th,.tablaTotalNeto td{
+        padding: 0px !important;
+        text-align: start;
+        border-right: 1px solid rgba(128, 128, 128, 0.37);
+
+     }
+     .contDistribucionHoja{
+        position: absolute;
+        bottom: 163px; 
+        left: 367px;
+        width: 50%; 
+        font-size: 11px;  
+        /* border-left: 1px solid rgba(128, 128, 128, 0.507); */
+     }
+     .contDistribucionHoja td{
+         padding: 2px;
+         text-align: start;
+         border-right: 1px solid rgba(128, 128, 128, 0.37) !important;
+
+     }
+
+
+.tablaVolFinal thead tr th,
+.tablaVolFinal tbody tr th,
+.tablaVolFinal tbody tr td{
+    width: 10px !important;
+    font-size: 12px;
+    margin: 0 !important;
+    padding: 0;
+
+}
+.contVolFinal{
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 4px double black !important;
+}
+.tablaVolFinal thead tr th{
+    width: 50px !important;
+}
+.observaciones{
+    position: absolute;
+    left: 52%;
+    bottom: 67px;
+    width: 47.5%;
+}
+.observaciones textarea{
+    margin-left: 8px !important;
+    margin-right: 8px !important;
+    text-align: start !important;
+}
+.medidoresHoja{
+    position: relative;
+    border-right: 1px solid rgba(128, 128, 128, 0.356);
+    left: 10px;
+
+}
+.medidoresHoja td{
+    position: relative;
+    /* left: 5px; */
+font-size: 10px !important;
+}
+.medidoresHoja td,.medidoresHoja th{
+    border-left: 1px solid rgba(128, 128, 128, 0.356);
+    border-right: 1px solid rgba(128, 128, 128, 0.356);
+    text-align: start;
+
+}
+.observaciones span{
+    border: none !important;
+    z-index: -1;
+
+}
+.observaciones .form-control{
+    height:  48px;
+    border: 1px solid rgba(128, 128, 128, 0.425);
+}
+
+.contHojaMedida .folioHoja{
+    z-index: 10;
+    display: inline !important;
+    position: absolute;
+    left: 85%;
+    top:-6%;
+    font-size: 18px;
+    font-weight: 500;
+    width: 160px;
+}
+
+.parrafoFirma1{
+    display: block !important;
+    border-top: 1px solid;
+    position: absolute;
+    font-size: 11px;
+    bottom: -5px;
+    left:380px;
+    width: 150px;
+    text-align: center;
+}
+.parrafoFirma2{
+    display: block !important;
+    border-top: 1px solid;
+    position: absolute;
+    font-size: 11px;
+    bottom: -5px;
+    left: 550px;
+    width: 150px;
+    text-align: center;
+
+}
+
+.tablaAntes.spanLabel{
+    color: black !important;
+    font-weight: 900 !important;
+}
+.tablaAntes .fechaAntes,.tablaDespues .fechaDespues{
+    position: relative;
+    left: 25%;
+    width: 50px !important;
+    z-index: 1;
+}
+
+.medidoresHoja .tituloMedidoresHoja{
+    border: white !important;
+}
+}

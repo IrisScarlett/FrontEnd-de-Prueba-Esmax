@@ -1,0 +1,336 @@
+.spanLabel8{
+    background-color: rgb(97, 97, 129);
+    color: white;
+    /* cursor: pointer; */
+}
+.metroscub1{
+   position: absolute;
+   z-index: 10;
+   left: 47%;
+   top: 36%;
+
+}
+
+.metroscub2{
+    position: absolute;
+    z-index: 20;
+    left: 72%;
+    top: 36%;
+ 
+ }
+ .spanLabelCol1{
+    background-color: rgb(97, 97, 129);
+    color: white;
+    /* cursor: pointer; */
+    width: 245px;
+ }
+.spanLabelColObs{
+    background-color: rgb(97, 97, 129);
+    color: white;
+    cursor: pointer;
+    width: 142px;
+}
+ .spanLabelRegBit{
+    background-color: rgb(97, 97, 129);
+    color: white;
+    text-align: center;
+
+ }
+ .spanLabelCol2{
+     width: 360px;
+     background-color: rgb(97, 97, 129);
+     color: white;
+ }
+ .spanLabelColOp{
+    width: 200px;
+    background-color: rgb(97, 97, 129);
+    color: white;
+ }
+ .obsBitacora{
+     width: 100%;
+     height: 50px;
+ }
+ .spanLabelCap{
+    width: 330px;
+    background-color: rgb(97, 97, 129);
+    color: white;
+ }
+
+ 
+  .btnCambioOperador{
+      width: 200px !important;
+  }
+
+  .contBtnCampoOp{
+      text-align: end;
+  }
+
+  .modalEntregaTurno .modal-content{
+      width: 600px;
+  }
+  .spanFormEntrega{
+      display: flex;
+      z-index: 20;
+      width: 200px;
+      /* text-align: end; */
+
+  }
+  .FormEntrega{
+      width: 200px;
+  }
+  .contEntregGrande{
+      height: 80px;
+  }
+  .infoLargaBitacora{
+      position: absolute;
+      left: 14px;
+      top: 20%;
+      z-index: 150;
+    width: 200px !important;
+  }
+  .form-control{
+    overflow-wrap: break-word;
+  }
+  .inputRegBit{
+      width: 100%;
+  }
+  .colregibit{
+      position: relative;
+      padding: 0;
+      width: 14.2%;
+
+  }
+  
+  .colregibitObs{
+      width: 24.4%;
+      padding: 0;
+
+  }
+  .colregibitObsFinish{
+    width: 28.5%;
+    padding: 0;
+
+}
+  .colregibitCheck{
+      color: white;
+      font-size: 1.5rem;
+        width: 4%;
+        background-color:rgb(97, 97, 129);
+        cursor: pointer;
+        transition: all ease .5s;
+
+ }
+ .colregibitCheck:hover{
+     font-size: 1.7rem;
+     transition: all ease .5s;
+     background-color: rgb(63, 63, 124);
+
+ }
+
+  .colButtonPlusReg{
+      color: rgb(63, 63, 124);
+      margin-top: 40px;
+      font-size: 60px;
+      cursor: pointer;
+      transition: all ease .5s;
+      /* margin-left: 95%; */
+
+  }
+  .colButtonPlusReg:hover{
+    font-size: 70px;
+    transition: all ease .5s;
+  }
+  .btnMedidorBitacora{
+      background-color: rgb(63, 63, 124);
+      color: white;
+      font-size: 12px;
+      font-weight: 500;
+
+  }
+  .inputMedidor{
+      width: 60%;
+  }
+  .inputMedidorFinalizado{
+    width: 100%;
+  }
+  .btnMedidor{
+      width: 40%;
+  }
+
+  .medidoresModal{
+      width: 100px;
+  }
+  .spinnerCapacidad{
+      position: relative;
+  }
+  .modalMedidores .modal-content{
+      width: 1000px !important;
+  }
+  .modalMedidores .form-control{
+      width: 100%;
+  }
+  .inputsFila1{
+      margin-left: 0px;
+      z-index: 3;
+  }
+  .inputsFila2{
+      margin-left: -2px;
+  }
+  .inputsFila3{
+      margin-left: -3px;
+  }
+  
+  .contAlarmasNivel{
+      position: relative;
+      top: 25%;
+
+    }
+
+    .inputselectEstReg{
+        width: 175px;
+    }
+  .selectEmpleados{
+      width: 200px !important;
+  }
+  .contBotonesFinal{
+      position: relative;
+      display: flex;
+      margin-bottom: 40px;
+      /* justify-content: end; */
+  }
+  .contBtnFinalizarBitacora{
+      position: absolute;
+      left: 75%;
+      z-index: 20;
+      width: 200px  !important;
+      margin-top:55px;
+      cursor: pointer;
+      transition: all ease .5s;
+  }
+  .btnFinalizarBitacora{
+      width: 200px;
+  }
+  .contPause{
+      position: absolute;
+      top: 45%;
+      left: 84%;
+      font-size: 20px;
+      color: rgb(63, 63, 124);
+      cursor: pointer;
+      transition: all ease .2s;
+
+  }
+
+  .contPause .btnPause:hover{
+      font-size: 25px;
+      transition: all ease .2s;
+      transform: translate(-10%,8%);
+
+
+  }
+  .backgroundRed{
+    background-color: rgba(219, 11, 11, 0.336)
+  }
+
+  .contBtnCert{
+      width: 50px;
+  }
+
+  .spanCertificado{
+      width: 70px !important;
+  }
+  .botonCertificados{
+      position: absolute;
+      right: 5%;
+        color: rgb(63, 63, 124);
+        font-size: 35px;
+        transition: all ease .5s;
+        cursor: pointer;
+  }
+  
+.botonCertificados:hover{
+    font-size: 45px;
+    transition: all ease .5s;
+  }
+  .modalCertificados{
+    /* position: absolute;
+    left: 50%;
+    top: 80%; */
+    transform: translate(0%, 25%);
+  }
+
+.colButtonPlusReg:hover{
+  font-size: 70px;
+  transition: all ease .5s;
+}
+.changeCert{
+    position: absolute;
+    z-index: 2;
+    top: 45%;
+    right: 5%;
+    font-size: 1.2rem;
+    color: rgb(63, 63, 124);
+    cursor: pointer;
+}
+
+.changeCert:hover{
+    animation: rotate 1s linear;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.selectCertif{
+    padding-left: 7%;
+    z-index: -1;
+}
+.identPausa{
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 5%;
+    font-weight: 900;
+    color: rgb(63, 63, 124);
+}
+.pfolioBitacora{
+    position: absolute;
+    font-size: 20px ;
+    font-weight: 900;
+    left: 80%;
+    top: 10%;
+}
+.spanBitHeader{
+    background-color:rgb(97, 97, 129);
+    color: white;
+}
+.headerBitacoraNuevo{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+@media (min-width: 990px) {
+    .contAlarmasNivel{
+        display: flex;
+    }
+    .checkAlarmaLabel{
+        font-size: 10px;
+    }
+    .checkAlarma{
+        font-size: 1rem;
+    }
+}
+
+
+@media (min-width: 990px ) and (max-width: 1199px ) {
+    .spanBitHeader{
+        font-size: .8rem;
+    }
+}

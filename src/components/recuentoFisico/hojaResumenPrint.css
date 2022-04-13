@@ -1,0 +1,64 @@
+@media print {
+   
+    .tablaResumenes thead tr th p{
+        width: 40px !important;
+        
+    }
+ 
+    .titulosTablaHR{
+        color:black;
+        font-size: .8rem;
+    
+    }
+    .titulosTablaHRNumeros1,.titulosTablaHRNumeros2{
+        color:black;
+        font-size: .6rem; 
+    }
+    .tablaResumenes{
+        position: relative;
+        right: 12px;
+        top: -60px;
+        font-size: 10px;
+    }
+    .fechaHojaResumen{
+        position: absolute;
+        top: 0;
+        left: 350px;
+    }
+
+    .tablaDanload{
+        position: relative;
+        color:black;
+        font-size: 10px;
+        width: 100%;
+    }
+
+    .titulosDanload{
+        position: relative;
+        bottom: 115px;
+        height: 30px;
+     
+    }
+    .tableDanload{
+        position: relative;
+        bottom: 60px;
+        margin: 0!important;
+        padding: 0!important;
+
+    }
+ 
+    .tituloHojaResumen{
+        position: relative;
+        bottom: 25px;
+    }
+    .espacioTablaHR{
+        height: 0px !important;
+    }
+
+    .tablaDanload th{
+        
+        border-left: 1px solid black !important;
+      
+    }
+
+}
